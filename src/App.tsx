@@ -130,7 +130,7 @@ function App() {
           <Box w="30%" p={4} color="orange" bg="black">
             <form onSubmit={handleSubmit}>
               <FormControl>
-                <FormLabel>Routing Key</FormLabel>
+                <FormLabel>Routing Key from Integration</FormLabel>
                 <Input placeholder="Routing Key" onChange={handleRoutingKeyChange} />
               </FormControl>
               <Button
